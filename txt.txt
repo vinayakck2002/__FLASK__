@@ -1,0 +1,38 @@
+difference flask and django framework?
+-------------------------------------
+1.install flask 
+pip install flask
+
+2.project craeting
+make a folder inside create a py file
+
+one project multiple application :easy to manage files
+
+
+3.import flask
+import Flask import flask
+App=Flask()
+make sure a constructer pass through function __init__
+App=Flask(__name__)
+
+4.run
+App.run()
+
+5.@App.route('/'):-URL
+
+6.render a html page
+return render_template("index.html)
+
+url_for is a function 
+
+
+database connect
+import sqlite3
+con sqlite3.connect('database")
+con.execute("CREATE TABLE IF NOT EXIST users(name TEXt, age int))
+
+
+
+
+
+
